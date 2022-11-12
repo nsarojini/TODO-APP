@@ -1,0 +1,261 @@
+/* css design  */
+/* style for body */
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: rgb(137, 137, 145);
+
+}
+
+/* style for single task div container */
+
+.singleTask {
+    border: 1px solid white;
+    width: 50%;
+    height: 110px;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    left: 25%;
+    right: 25%;
+    font-family: serif;
+    font-size: medium;
+}
+
+/* style for del check */
+.delechack {
+    margin: 15px;
+
+}
+
+/* style for TODO heading */
+
+.todoheading {
+    color: white;
+    text-align: center;
+    font-family: serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/* style for form */
+
+.form_class {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 25%;
+}
+
+/* style for description area */
+
+.desc_Class input {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: serif;
+    transition: transform 0.3s;
+    box-sizing: border-box;
+    border: 3px solid rgb(172, 166, 166);
+}
+
+/* implemented some hover in description section */
+.desc_Class input:hover {
+    box-shadow: 0px 0px 5px 2px white;
+    background-color: bisque;
+}
+
+
+/* design for select and option START */
+/* style for select and options input input area */
+
+.select_and_input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.select_and_input select {
+    height: 45px;
+    width: 35%;
+    transition: transform 0.3s;
+    text-align: center;
+    font-style: italic;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.select_and_input input {
+    height: 45px;
+    width: 35%;
+    text-align: center;
+    font-style: italic;
+    transition: transform 0.3s;
+    margin-bottom: 10px;
+}
+
+.drop-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.select_and_input select:hover {
+    box-shadow: 0px 0px 5px 2px white;
+    background-color: bisque;
+}
+
+.select_and_input input:hover {
+    box-shadow: 0px 0px 5px 2px white;
+    background-color: bisque;
+}
+
+
+/* design for select and option END */
+
+/* design for dates value */
+.datesValues {
+    transition: transform 0.3s;
+}
+
+.datesValues:hover {
+    box-shadow: 0px 0px 5px 2px white;
+    background-color: bisque;
+}
+
+/* design for button */
+.buttonDesign {
+    height: 50px;
+    width: 200px;
+    color: white;
+    transition: transform 0.3s;
+}
+
+.buttonDesign:hover {
+    box-shadow: 0px 0px 5px 2px white;
+    transform: scale(1.1);
+}
+
+.colorRed {
+    background-color: #C3073F;
+    font-family: serif;
+
+}
+
+.colorGrey {
+    background-color: #4E4E50;
+    font-family: serif;
+}
+
+.commonClass {
+    height: auto;
+    width: 90px;
+    text-align: center;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    transition: transform 0.3s;
+    position: absolute;
+    left: 80%;
+    margin: 20px;
+}
+
+.commonClass:hover {
+    box-shadow: 0px 0px 5px 2px rgb(14, 6, 6);
+    transform: scale(1.2);
+}
+
+/* design for checkbox-task completed sction */
+.checkbox {
+    transition: transform 0.3s;
+    position: absolute;
+    left: 40%;
+    margin: 20px;
+    margin-top: 10px;
+}
+
+.checkbox:hover {
+    box-shadow: 0px 0px 0px 0px rgb(14, 6, 6);
+    transform: scale(1.2);
+}
+
+.checkbox a {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(37, 99, 77)
+}
+
+/* for placing placeholder in the center  */
+input[type="textarea"]::placeholder {
+
+    /* Firefox, Chrome, Opera */
+    text-align: center;
+
+}
+
+/* design for EDIT button*/
+.checkbox {
+    margin-top: 30px;
+    height: 30px;
+    width: 200px;
+    line-height: normal;
+
+}
+
+
+/* Design for different category */
+
+
+.work {
+    background-color: #6a1a7a;
+    /* text-align: right; */
+
+}
+
+.Personal {
+    background-color: #cc5180;
+    /* text-align: right; */
+
+}
+
+.Cleaning {
+    background-color: #7b2038;
+    /* text-align: right; */
+}
+
+.Others {
+    background-color: #6C5B7B;
+    /* text-align: right; */
+}
+
+.name_and_dueDate {
+    height: auto;
+    width: 200px;
+    line-height: 0.9;
+}
+
+.dueDate {
+    width: fit-content;
+    line-height: 80%;
+}
+
+
+
+    
